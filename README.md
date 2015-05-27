@@ -1,4 +1,4 @@
-![suru Icon template logo](images/Icontemplate.png)
+![suru Icon template logo](images/icontemp2.png)
 # Suru Icon Template kit
 Everything you need to create a consistent icon for the Ubuntu phone. Complete paper texture and various paper folds. Pictogram break shape break down icon margins. Please also take a look the offical Ubuntu icon guidelines at https://design.ubuntu.com/apps/style/iconography
 ![toolkit Logo](images/toolkiticon.png)
