@@ -22,16 +22,27 @@
   <defs
      id="defs5896">
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient6938">
+       id="linearGradient5254">
       <stop
-         style="stop-color:#ffffff;stop-opacity:1;"
+         style="stop-color:#ffffff;stop-opacity:0.58823532"
          offset="0"
-         id="stop6940" />
+         id="stop5256" />
       <stop
          style="stop-color:#ffffff;stop-opacity:0;"
          offset="1"
-         id="stop6942" />
+         id="stop5258" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient5206">
+      <stop
+         style="stop-color:#5f5f5f;stop-opacity:1;"
+         offset="0"
+         id="stop5208" />
+      <stop
+         style="stop-color:#5f5f5f;stop-opacity:0;"
+         offset="1"
+         id="stop5210" />
     </linearGradient>
     <linearGradient
        id="linearGradient6905">
@@ -1144,31 +1155,46 @@
        y2="316.47754" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient6938"
-       id="linearGradient6944"
-       x1="453.99152"
-       y1="318.82611"
-       x2="453.99152"
-       y2="154.4248"
+       xlink:href="#linearGradient5206"
+       id="linearGradient5212"
+       x1="337.73541"
+       y1="183.71849"
+       x2="590.08301"
+       y2="183.71849"
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient6938"
-       id="linearGradient6946"
+       xlink:href="#linearGradient5254"
+       id="linearGradient5252"
+       x1="1604.5603"
+       y1="-101.08354"
+       x2="1610.5477"
+       y2="-351.99432"
        gradientUnits="userSpaceOnUse"
-       x1="453.99152"
-       y1="318.82611"
-       x2="453.99152"
-       y2="154.4248" />
+       gradientTransform="translate(91.132645,3.5506238)" />
+    <filter
+       inkscape:collect="always"
+       style="color-interpolation-filters:sRGB"
+       id="filter5268"
+       x="-0.0060039014"
+       width="1.0120078"
+       y="-0.0059961037"
+       height="1.0119922">
+      <feGaussianBlur
+         inkscape:collect="always"
+         stdDeviation="0.63127921"
+         id="feGaussianBlur5270" />
+    </filter>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient6938"
-       id="linearGradient6948"
+       xlink:href="#linearGradient5206"
+       id="linearGradient5272"
        gradientUnits="userSpaceOnUse"
-       x1="453.99152"
-       y1="318.82611"
-       x2="453.99152"
-       y2="154.4248" />
+       x1="337.73541"
+       y1="183.71849"
+       x2="590.08301"
+       y2="183.71849"
+       gradientTransform="matrix(1,0,0,0.99218752,-990.8244,-466.11961)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1177,16 +1203,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.84492188"
-     inkscape:cx="892.05645"
-     inkscape:cy="-249.04583"
+     inkscape:zoom="0.298725"
+     inkscape:cx="1516.7301"
+     inkscape:cy="-298.75457"
      inkscape:document-units="px"
-     inkscape:current-layer="layer1"
+     inkscape:current-layer="g5275"
      showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="876"
-     inkscape:window-x="1366"
-     inkscape:window-y="0"
+     inkscape:window-width="1366"
+     inkscape:window-height="717"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="30"
      fit-margin-left="30"
@@ -1231,13 +1257,12 @@
        id="g4870-6-8"
        style="opacity:1;fill:#f5f5f5;fill-opacity:1">
       <path
-         inkscape:transform-center-y="0.00026168392"
-         inkscape:transform-center-x="-78.933935"
-         sodipodi:nodetypes="sssssssss"
-         inkscape:connector-curvature="0"
+         style="display:inline;fill:#f5f5f5;fill-opacity:1;stroke:none"
+         d="m 1175.1191,525.06641 c -25.4551,0 -41.8437,22.97005 -41.8437,50.44531 l 0,151.78516 c 0,27.47526 16.3886,50.44531 41.8437,50.44531 56.2201,0 112.4401,0 168.6602,0 25.4551,0 41.8437,-22.97006 41.8437,-50.44531 l 0,-151.78516 c 0,-27.47526 -16.3886,-50.44531 -41.8437,-50.44531 -56.2201,0 -112.4401,0 -168.6602,0 z"
          id="path16461-33-5-3-8-4"
-         d="m 592.13738,250.57454 0,-121.58472 c 0,-45.682484 -18.21943,-72.20764 -61.76468,-72.20764 l -134.47064,0 c -43.54525,0 -59.76468,28.525156 -59.76468,74.20764 l 0,119.58472 c 0,45.68248 16.21943,60.20764 59.76468,60.20764 l 132.47064,0 c 43.54525,0 63.76468,-14.52516 63.76468,-60.20764 z"
-         style="display:inline;fill:#f5f5f5;fill-opacity:1;stroke:none" />
+         inkscape:connector-curvature="0"
+         sodipodi:nodetypes="cssccsscc"
+         transform="matrix(1,0,0,0.99218752,-795.53999,-462.59673)" />
       <text
          sodipodi:linespacing="125%"
          id="text2987-0-8"
@@ -1944,33 +1969,6 @@
    style="font-size:24px"
    id="tspan8646">use to get a see what icon will look like on phone</tspan></tspan></text>
     </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="1304.6606"
-       y="-257.81812"
-       id="text8667"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan8669"
-         x="1304.6606"
-         y="-257.81812"
-         style="fill:#5d5d5d;fill-opacity:1">Icon Clip</tspan><tspan
-         sodipodi:role="line"
-         x="1307.4263"
-         y="-227.81812"
-         id="tspan8671"
-         style="fill:#5d5d5d;fill-opacity:1">use clip tool after </tspan><tspan
-         sodipodi:role="line"
-         x="1307.4263"
-         y="-197.81812"
-         id="tspan8673"
-         style="fill:#5d5d5d;fill-opacity:1">positioning on </tspan><tspan
-         sodipodi:role="line"
-         x="1304.6606"
-         y="-167.81812"
-         id="tspan8675"
-         style="fill:#5d5d5d;fill-opacity:1">top of icon</tspan></text>
     <rect
        style="fill:#f5f5f5;fill-opacity:1;fill-rule:nonzero;stroke:none"
        id="rect8729"
@@ -4582,14 +4580,6 @@
          transform="matrix(1,0,0,1.007874,1144.3653,-403.99071)"
          id="g4870-6-0"
          style="opacity:1;fill:#916f6f;filter:url(#filter3891)">
-        <path
-           inkscape:transform-center-y="0.00026168392"
-           inkscape:transform-center-x="-78.933935"
-           sodipodi:nodetypes="sssssssss"
-           inkscape:connector-curvature="0"
-           id="path16461-33-5-3-8-1"
-           d="m 592.13738,250.57454 0,-121.58472 c 0,-45.682484 -18.21943,-72.20764 -61.76468,-72.20764 l -134.47064,0 c -43.54525,0 -59.76468,28.525156 -59.76468,74.20764 l 0,119.58472 c 0,45.68248 16.21943,60.20764 59.76468,60.20764 l 132.47064,0 c 43.54525,0 63.76468,-14.52516 63.76468,-60.20764 z"
-           style="display:inline;fill:#916f6f;fill-opacity:1;stroke:none" />
         <text
            sodipodi:linespacing="125%"
            id="text2987-0-4"
@@ -4607,36 +4597,6 @@
              x="464.04645"
              sodipodi:role="line"
              id="tspan4692-5" /></text>
-      </g>
-      <g
-         style="opacity:0.45;fill:none;fill-opacity:1;stroke:url(#linearGradient6944);stroke-width:1.49412918;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         id="g4870-6-8-2"
-         transform="matrix(1,0,0,1.007874,1144.3653,-403.9907)">
-        <path
-           style="display:inline;opacity:0.5;fill:none;fill-opacity:1;stroke:url(#linearGradient6946);stroke-width:1.49412918;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           d="m 592.13738,250.57454 0,-121.58472 c 0,-45.682484 -18.21943,-72.20764 -61.76468,-72.20764 l -134.47064,0 c -43.54525,0 -59.76468,28.525156 -59.76468,74.20764 l 0,119.58472 c 0,45.68248 16.21943,60.20764 59.76468,60.20764 l 132.47064,0 c 43.54525,0 63.76468,-14.52516 63.76468,-60.20764 z"
-           id="path16461-33-5-3-8-4-9"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="sssssssss"
-           inkscape:transform-center-x="-78.933935"
-           inkscape:transform-center-y="0.00026168392" />
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:url(#linearGradient6948);stroke-width:1.49412918;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           x="464.04645"
-           y="172.20218"
-           id="text2987-0-8-5"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="464.04645"
-             y="172.20218"
-             id="tspan2991-7-8-0"
-             style="font-size:40px;text-align:center;text-anchor:middle;fill:none;fill-opacity:1;stroke:url(#linearGradient6948);stroke-width:1.49412918;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /><tspan
-             id="tspan4692-7-0"
-             sodipodi:role="line"
-             x="464.04645"
-             y="222.20218"
-             style="font-size:20px;text-align:center;text-anchor:middle;fill:none;fill-opacity:1;stroke:url(#linearGradient6948);stroke-width:1.49412918;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" /></text>
       </g>
     </g>
     <g
@@ -4848,6 +4808,100 @@
            y="-477.24011"
            x="234.81352"
            sodipodi:role="line">v0.2.5</tspan></text>
+    </g>
+    <g
+       id="g4614-89"
+       transform="translate(66.061324,-414.39467)" />
+    <g
+       transform="matrix(-1,0,0,1.007874,1769.2297,-402.85335)"
+       id="g4870-6-8-9"
+       style="opacity:1;fill:#f5f5f5;fill-opacity:1">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2987-0-8-6"
+         y="172.20218"
+         x="464.04645"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-size:40px;text-align:center;text-anchor:middle;fill:#f5f5f5;fill-opacity:1"
+           id="tspan2991-7-8-1"
+           y="172.20218"
+           x="464.04645"
+           sodipodi:role="line" /><tspan
+           style="font-size:20px;text-align:center;text-anchor:middle;fill:#f5f5f5;fill-opacity:1"
+           y="222.20218"
+           x="464.04645"
+           sodipodi:role="line"
+           id="tspan4692-7-6" /></text>
+    </g>
+    <g
+       transform="matrix(1,0,0,1.007874,1428.2866,-404.60277)"
+       id="g4870-6-8-3"
+       style="opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:url(#linearGradient5212);filter:url(#filter3891)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text2987-0-8-62"
+         y="172.20218"
+         x="464.04645"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:url(#linearGradient5212)"
+         xml:space="preserve"><tspan
+           style="font-size:40px;text-align:center;text-anchor:middle;fill:#f5f5f5;fill-opacity:1;stroke:url(#linearGradient5212)"
+           id="tspan2991-7-8-2"
+           y="172.20218"
+           x="464.04645"
+           sodipodi:role="line" /><tspan
+           style="font-size:20px;text-align:center;text-anchor:middle;fill:#f5f5f5;fill-opacity:1;stroke:url(#linearGradient5212)"
+           y="222.20218"
+           x="464.04645"
+           sodipodi:role="line"
+           id="tspan4692-7-5" /></text>
+    </g>
+    <g
+       id="g5275"
+       transform="translate(-88.765603,5.3000382)">
+      <g
+         id="g5279">
+        <path
+           transform="matrix(1,0,0,1.007874,1428.2866,-404.60277)"
+           style="display:inline;opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:url(#linearGradient5272);stroke-width:0.99608612;filter:url(#filter3891)"
+           d="m 184.2947,54.844732 c -25.4551,0 -41.8437,22.790597 -41.8437,50.051208 l 0,150.59934 c 0,27.26061 16.3886,50.0512 41.8437,50.0512 56.2201,0 112.4401,0 168.6602,0 25.4551,0 41.8437,-22.7906 41.8437,-50.0512 l 0,-150.59934 c 0,-27.260611 -16.3886,-50.051208 -41.8437,-50.051208 -56.2201,0 -112.4401,0 -168.6602,0 z"
+           id="path16461-33-5-3-8-4-8"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cssccsscc" />
+        <path
+           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient5252);stroke-opacity:1;filter:url(#filter5268)"
+           d="m 1612.5813,-349.32619 c -25.4551,0 -41.8437,22.97005 -41.8437,50.44531 l 0,151.78516 c 0,27.47526 16.3886,50.445304 41.8437,50.445304 56.2201,0 112.4401,0 168.6602,0 25.4551,0 41.8437,-22.970054 41.8437,-50.445304 l 0,-151.78516 c 0,-27.47526 -16.3886,-50.44531 -41.8437,-50.44531 -56.2201,0 -112.4401,0 -168.6602,0 z"
+           id="path16461-33-5-3-8-4-8-2"
+           inkscape:connector-curvature="0"
+           sodipodi:nodetypes="cssccsscc" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="1393.198"
+         y="-260.8963"
+         id="text8667"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan8669"
+           x="1393.198"
+           y="-260.8963"
+           style="fill:#5d5d5d;fill-opacity:1">Icon Clip</tspan><tspan
+           sodipodi:role="line"
+           x="1395.9636"
+           y="-230.8963"
+           id="tspan8671"
+           style="fill:#5d5d5d;fill-opacity:1">use clip tool after </tspan><tspan
+           sodipodi:role="line"
+           x="1395.9636"
+           y="-200.8963"
+           id="tspan8673"
+           style="fill:#5d5d5d;fill-opacity:1">positioning on </tspan><tspan
+           sodipodi:role="line"
+           x="1393.198"
+           y="-170.8963"
+           id="tspan8675"
+           style="fill:#5d5d5d;fill-opacity:1">top of icon</tspan></text>
     </g>
   </g>
 </svg>
