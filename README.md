@@ -5,12 +5,12 @@ Everything you need to create a consistent icon for the Ubuntu phone. Complete p
 
 # Ubuntu Ui Patterns
 A collection of svg images in one file that allows developers to quickly draft and mock up layouts for the Ubuntu phone. Based on the [ucdk by Lucas Romero Di Benedeto](https://github.com/lucasromerodb/ucdk). But with update ui elements from the Ubuntu sdk 14.10 and 15.04. 
-![Sheets](images/sheets.png)
 
+![Device Stickersheet Logo](images/deviceicon.png)
 # Device Stickersheet
 More detailed Ubuntu devices to mock up your UI with. Device sizes are based on their pixel density instead of their physical size.
 
-![Device Stickersheet Logo](images/deviceicon.png)
+![Sheets](images/sheets.png)
 #Sheets
 For those who like desiging on pencil and paper before jumping into code, this free dot grid sketch paper makes it easy to get your ideas on paper. Currently a work in progress. Please report an issue if you find any.
 
