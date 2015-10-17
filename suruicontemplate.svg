@@ -72,18 +72,6 @@
          id="stop6315" />
     </linearGradient>
     <linearGradient
-       inkscape:collect="always"
-       id="linearGradient6303">
-      <stop
-         style="stop-color:#87b638;stop-opacity:1"
-         offset="0"
-         id="stop6305" />
-      <stop
-         style="stop-color:#73b36d;stop-opacity:1"
-         offset="1"
-         id="stop6307" />
-    </linearGradient>
-    <linearGradient
        id="linearGradient5254">
       <stop
          style="stop-color:#ffffff;stop-opacity:0.58823532"
@@ -1011,7 +999,7 @@
        id="filter3891-3">
       <feFlood
          flood-opacity="1"
-         flood-color="rgb(136,136,136)"
+         flood-color="rgb(95,95,95)"
          result="flood"
          id="feFlood3893-6" />
       <feComposite
@@ -1066,49 +1054,6 @@
        gradientUnits="userSpaceOnUse" />
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient5254"
-       id="linearGradient5252"
-       x1="1604.5603"
-       y1="-101.08354"
-       x2="1610.5477"
-       y2="-351.99432"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(91.132645,3.5506238)" />
-    <filter
-       inkscape:collect="always"
-       style="color-interpolation-filters:sRGB"
-       id="filter5268"
-       x="-0.0060039014"
-       width="1.0120078"
-       y="-0.0059961037"
-       height="1.0119922">
-      <feGaussianBlur
-         inkscape:collect="always"
-         stdDeviation="0.63127921"
-         id="feGaussianBlur5270" />
-    </filter>
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient5206"
-       id="linearGradient5272"
-       gradientUnits="userSpaceOnUse"
-       x1="337.73541"
-       y1="183.71849"
-       x2="590.08301"
-       y2="183.71849"
-       gradientTransform="matrix(1,0,0,0.99218752,-990.8244,-466.11961)" />
-    <linearGradient
-       inkscape:collect="always"
-       xlink:href="#linearGradient6303"
-       id="linearGradient6309"
-       x1="537.64624"
-       y1="1316.1198"
-       x2="537.64624"
-       y2="1568.8605"
-       gradientUnits="userSpaceOnUse"
-       gradientTransform="translate(0,141.7677)" />
-    <linearGradient
-       inkscape:collect="always"
        xlink:href="#linearGradient6311"
        id="linearGradient6317"
        x1="717.55719"
@@ -1125,7 +1070,8 @@
        y1="-859.24524"
        x2="1920.4158"
        y2="1666.432"
-       gradientUnits="userSpaceOnUse" />
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-1.6737828,-0.8368896)" />
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient6454"
@@ -1316,6 +1262,102 @@
          style="fill:#ffffff;fill-opacity:0;fill-rule:evenodd;stroke:#ffffff;stroke-width:1pt;stroke-opacity:1"
          transform="matrix(0.8,0,0,0.8,5.92,0.8)" />
     </marker>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath554-1-3-6">
+      <path
+         d="M 0,500 500,500 500,0 0,0 0,500 Z"
+         id="path556-7-1-7"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3891-3-5">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(95,95,95)"
+         result="flood"
+         id="feFlood3893-6-8" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="out"
+         result="composite1"
+         id="feComposite3895-0-5" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur3897-2-9" />
+      <feOffset
+         dx="0"
+         dy="2"
+         result="offset"
+         id="feOffset3899-5-7" />
+      <feComposite
+         in="offset"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite2"
+         id="feComposite3901-0-3" />
+    </filter>
+    <filter
+       style="color-interpolation-filters:sRGB"
+       inkscape:label="Drop Shadow"
+       id="filter3891-3-3">
+      <feFlood
+         flood-opacity="1"
+         flood-color="rgb(95,95,95)"
+         result="flood"
+         id="feFlood3893-6-9" />
+      <feComposite
+         in="flood"
+         in2="SourceGraphic"
+         operator="out"
+         result="composite1"
+         id="feComposite3895-0-8" />
+      <feGaussianBlur
+         in="composite1"
+         stdDeviation="3"
+         result="blur"
+         id="feGaussianBlur3897-2-6" />
+      <feOffset
+         dx="0"
+         dy="2"
+         result="offset"
+         id="feOffset3899-5-8" />
+      <feComposite
+         in="offset"
+         in2="SourceGraphic"
+         operator="in"
+         result="composite2"
+         id="feComposite3901-0-7" />
+    </filter>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath554-1-2-0-9-2-8">
+      <path
+         d="M 0,500 500,500 500,0 0,0 0,500 Z"
+         id="path556-7-6-8-5-0-0"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath554-1-2-0-9-2-9">
+      <path
+         d="M 0,500 500,500 500,0 0,0 0,500 Z"
+         id="path556-7-6-8-5-0-2"
+         inkscape:connector-curvature="0" />
+    </clipPath>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath554-1-2-0-9-2-8-9">
+      <path
+         d="M 0,500 500,500 500,0 0,0 0,500 Z"
+         id="path556-7-6-8-5-0-0-6"
+         inkscape:connector-curvature="0" />
+    </clipPath>
   </defs>
   <sodipodi:namedview
      id="base"
@@ -1325,21 +1367,21 @@
      inkscape:pageopacity="1"
      inkscape:pageshadow="2"
      inkscape:zoom="0.42246095"
-     inkscape:cx="504.32939"
-     inkscape:cy="-429.93456"
+     inkscape:cx="707.658"
+     inkscape:cy="-1111.3657"
      inkscape:document-units="px"
-     inkscape:current-layer="layer4"
+     inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1049"
-     inkscape:window-x="1920"
-     inkscape:window-y="0"
+     inkscape:window-height="1025"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
      inkscape:window-maximized="1"
      fit-margin-top="30"
      fit-margin-left="30"
      fit-margin-right="30"
      fit-margin-bottom="30"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
@@ -1378,40 +1420,11 @@
        id="rect5902"
        width="1886.38"
        height="2547.739"
-       x="45.871239"
-       y="-869.09259" />
-    <g
-       transform="matrix(1,0,0,1.007874,841.41123,-402.85335)"
-       id="g4870-6-8"
-       style="opacity:1;fill:#f5f5f5;fill-opacity:1">
-      <path
-         style="display:inline;fill:#f5f5f5;fill-opacity:1;stroke:none"
-         d="m 1175.1191,525.06641 c -25.4551,0 -41.8437,22.97005 -41.8437,50.44531 l 0,151.78516 c 0,27.47526 16.3886,50.44531 41.8437,50.44531 56.2201,0 112.4401,0 168.6602,0 25.4551,0 41.8437,-22.97006 41.8437,-50.44531 l 0,-151.78516 c 0,-27.47526 -16.3886,-50.44531 -41.8437,-50.44531 -56.2201,0 -112.4401,0 -168.6602,0 z"
-         id="path16461-33-5-3-8-4"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cssccsscc"
-         transform="matrix(1,0,0,0.99218752,-795.53999,-462.59673)" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text2987-0-8"
-         y="172.20218"
-         x="464.04645"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#f5f5f5;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-size:40px;text-align:center;text-anchor:middle;fill:#f5f5f5;fill-opacity:1"
-           id="tspan2991-7-8"
-           y="172.20218"
-           x="464.04645"
-           sodipodi:role="line" /><tspan
-           style="font-size:20px;text-align:center;text-anchor:middle;fill:#f5f5f5;fill-opacity:1"
-           y="222.20218"
-           x="464.04645"
-           sodipodi:role="line"
-           id="tspan4692-7" /></text>
-    </g>
+       x="44.197456"
+       y="-869.9295" />
     <g
        id="g4614"
-       transform="translate(437.35391,-382.5654)">
+       transform="translate(439.35391,-382.5654)">
       <rect
          y="19.615335"
          x="22.239878"
@@ -1438,26 +1451,8 @@
            sodipodi:role="line">256 X 256</tspan></text>
     </g>
     <g
-       id="g7095-2"
-       transform="translate(16,416.09865)">
-      <text
-         sodipodi:linespacing="125%"
-         id="text5523-5"
-         y="-816.15656"
-         x="445.72195"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:36px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Semi-Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
-           id="tspan5864-2"
-           y="-816.15656"
-           x="445.72195"
-           sodipodi:role="line">Icon size <tspan
-   style="font-size:22.5px"
-   id="tspan8648">final icon will always be square</tspan></tspan></text>
-    </g>
-    <g
        id="g7274"
-       transform="translate(-88.199684,-61.2682)">
+       transform="translate(-86.199684,-61.2682)">
       <g
          style="fill:#5d5d5d;fill-opacity:0.86666667"
          transform="translate(806.32555,-321.2972)"
@@ -1517,22 +1512,40 @@
        id="g8521"
        style="opacity:0.5" />
     <g
-       id="g7095-2-9"
-       transform="translate(734.40671,417.53865)">
+       id="g6056">
+      <g
+         transform="translate(16,416.09865)"
+         id="g7095-2">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
+           x="445.72195"
+           y="-816.15656"
+           id="text5523-5"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="445.72195"
+             y="-816.15656"
+             id="tspan5864-2"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:36px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Icon size</tspan></text>
+      </g>
       <text
          sodipodi:linespacing="125%"
-         id="text5523-5-7"
-         y="-816.15656"
-         x="445.72195"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
+         id="text5523-5-5-6-2-5-8"
+         y="-402.27441"
+         x="616.89081"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:36px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Semi-Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
-           id="tspan5864-2-5"
-           y="-816.15656"
-           x="445.72195"
-           sodipodi:role="line">Icon clip  <tspan
-   style="font-size:22.5px"
-   id="tspan8646">use to get a see what icon will look like on phone</tspan></tspan></text>
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan5864-2-6-0-4-2-74"
+           y="-402.27441"
+           x="616.89081"
+           sodipodi:role="line">Icons should be submitted as a square </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           y="-374.14941"
+           x="616.89081"
+           sodipodi:role="line"
+           id="tspan6046" /></text>
     </g>
     <g
        id="g4262"
@@ -1552,12 +1565,10 @@
              y="-816.15656"
              id="tspan5864"
              style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:36px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Semi-Light';text-align:start;writing-mode:lr-tb;text-anchor:start"><tspan
+               id="tspan5745"
+               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:35px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light'">Offical design documents here:</tspan><tspan
                id="tspan8586"
-               style="font-size:24px"><tspan
-   id="tspan6984"
-   style="font-style:normal;font-variant:normal;font-weight:500;font-stretch:normal;font-size:27.5px;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Medium'"><tspan
-     id="tspan6988"
-     style="font-size:35px">Offical design documents here:</tspan></tspan> https://design.ubuntu.com/apps/style/iconography</tspan></tspan></text>
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono'"> https://design.ubuntu.com/apps/style/iconography</tspan></tspan></text>
       </g>
       <text
          sodipodi:linespacing="150%"
@@ -1566,98 +1577,36 @@
          x="467.49884"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:150%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="line-height:150%;letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
            y="-769.39282"
            x="467.49884"
            id="tspan8778"
            sodipodi:role="line">This kit was made to help people put together icons that are consistant with the Ubuntu </tspan><tspan
-           style="line-height:150%;letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
            id="tspan8780"
            y="-733.39282"
            x="467.49884"
-           sodipodi:role="line">phone suru design language. It comes with paper textures and paper folds for easy uses. </tspan><tspan
-           style="line-height:150%;letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
+           sodipodi:role="line">phone suru design language. It comes with grids and paper folds for easy uses. </tspan><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
            id="tspan8792"
            y="-697.39282"
            x="467.49884"
            sodipodi:role="line">Please look at the Ubuntu phone design guidelines. Url at the top. Feel free to report </tspan><tspan
            id="tspan8800"
-           style="line-height:150%;letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
            y="-661.39282"
            x="467.49884"
            sodipodi:role="line">issues or contribute to the kit at https://github.com/halfsail/Ubuntu-UI-Tookit </tspan><tspan
-           style="line-height:150%;letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
            id="tspan8790"
            y="-625.39282"
            x="467.49884"
            sodipodi:role="line" /><tspan
-           style="line-height:150%;letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:150%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';letter-spacing:0.5px;fill:#f5f5f5;fill-opacity:1"
            id="tspan8786"
            y="-589.39282"
            x="467.49884"
            sodipodi:role="line" /></text>
-    </g>
-    <text
-       xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       x="1607.6908"
-       y="-271.66943"
-       id="text8667-3"
-       sodipodi:linespacing="125%"><tspan
-         sodipodi:role="line"
-         id="tspan8669-4"
-         x="1607.6908"
-         y="-271.66943"
-         style="fill:#5d5d5d;fill-opacity:1">Icon drop shadow</tspan><tspan
-         sodipodi:role="line"
-         x="1610.4564"
-         y="-241.66943"
-         id="tspan8675-0"
-         style="fill:#5d5d5d;fill-opacity:1">use algin tool </tspan><tspan
-         sodipodi:role="line"
-         x="1607.6908"
-         y="-211.66943"
-         style="fill:#5d5d5d;fill-opacity:1"
-         id="tspan4009">(shift+ ctrl + a)</tspan><tspan
-         sodipodi:role="line"
-         x="1610.4564"
-         y="-181.66943"
-         style="fill:#5d5d5d;fill-opacity:1"
-         id="tspan4007">to put it on top </tspan><tspan
-         sodipodi:role="line"
-         x="1610.4564"
-         y="-151.66943"
-         style="fill:#5d5d5d;fill-opacity:1"
-         id="tspan4011">of icon clip </tspan></text>
-    <g
-       transform="matrix(0.98018577,0,0,0.98774967,-220.61161,-892.62335)"
-       id="g4870-6-8-1"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:5.17498016;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">
-      <path
-         inkscape:transform-center-y="0.00026168392"
-         inkscape:transform-center-x="-78.933935"
-         sodipodi:nodetypes="sssssssss"
-         inkscape:connector-curvature="0"
-         id="path16461-33-5-3-8-4-0"
-         d="m 592.13738,250.57454 0,-121.58472 c 0,-45.682484 -18.21943,-72.20764 -61.76468,-72.20764 l -134.47064,0 c -43.54525,0 -59.76468,28.525156 -59.76468,74.20764 l 0,119.58472 c 0,45.68248 16.21943,60.20764 59.76468,60.20764 l 132.47064,0 c 43.54525,0 63.76468,-14.52516 63.76468,-60.20764 z"
-         style="display:inline;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:5.17498016;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-      <text
-         sodipodi:linespacing="125%"
-         id="text2987-0-8-3"
-         y="172.20218"
-         x="464.04645"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:5.17498016;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-size:40px;text-align:center;text-anchor:middle;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:5.17498016;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="tspan2991-7-8-7"
-           y="172.20218"
-           x="464.04645"
-           sodipodi:role="line" /><tspan
-           style="font-size:20px;text-align:center;text-anchor:middle;fill:none;fill-opacity:1;stroke:#ffffff;stroke-width:5.17498016;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           y="222.20218"
-           x="464.04645"
-           sodipodi:role="line"
-           id="tspan4692-7-3" /></text>
     </g>
     <g
        style="opacity:0.8;fill:none;stroke:url(#linearGradient6899);stroke-width:1.49412918;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
@@ -1707,216 +1656,6 @@
       </g>
     </g>
     <g
-       id="g6990">
-      <g
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         transform="translate(-1212.6601,-847.13175)"
-         id="g5800-8">
-        <g
-           id="g5049-5-9"
-           transform="translate(1256.1784,415.59313)">
-          <g
-             id="g4753-5-64"
-             transform="matrix(1.25,0,0,-1.25,-151.18905,25.946055)">
-            <g
-               id="g4741-1-00"
-               transform="translate(23.6,-5.6)">
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path526-0-1"
-                 style="fill:none;stroke:#ffffff;stroke-width:0.25063086;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 d="m 160.25685,339.74314 -12.53154,0 0,12.53154 12.53154,0 0,-12.53154 z" />
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path528-0-1"
-                 style="fill:none;stroke:#ffffff;stroke-width:0.25145134;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 d="m 352.27427,339.70171 -12.57256,0 0,12.57256 12.57256,0 0,-12.57256 z" />
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path530-1-0"
-                 style="fill:none;stroke:#ffffff;stroke-width:0.25104108;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 d="m 160.27757,147.72552 -12.55205,0 0,12.55205 12.55205,0 0,-12.55205 z" />
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path532-0-03"
-                 style="fill:none;stroke:#ffffff;stroke-width:0.25473326;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 d="m 352.27263,147.72737 -12.73666,0 0,12.73666 12.73666,0 0,-12.73666 z" />
-            </g>
-            <g
-               id="g4747-2-3"
-               transform="matrix(1.1656437,0,0,1.165512,-17.82137,-46.979158)">
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path534-3-7"
-                 style="fill:none;stroke:#ffffff;stroke-width:0.51072317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 d="m 250,250 -76.60848,0 0,76.60848 76.60848,0 L 250,250 Z" />
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path536-2-3"
-                 style="fill:none;stroke:#ffffff;stroke-width:0.51072317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 d="M 326.60848,250 250,250 l 0,76.60848 76.60848,0 0,-76.60848 z" />
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path538-9-4"
-                 style="fill:none;stroke:#ffffff;stroke-width:0.51072317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 d="m 250,173.39152 -76.60848,0 0,76.60848 76.60848,0 0,-76.60848 z" />
-              <path
-                 inkscape:connector-curvature="0"
-                 id="path540-0-8"
-                 style="fill:none;stroke:#ffffff;stroke-width:0.51072317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 d="m 326.60848,173.39152 -76.60848,0 0,76.60848 76.60848,0 0,-76.60848 z" />
-            </g>
-          </g>
-          <g
-             transform="matrix(1.25,0,0,-1.25,-144.68905,30.946058)"
-             id="g4735-4-1-7">
-            <g
-               id="g542-3-4"
-               transform="matrix(0.51072319,0,0,0.51072319,166.25536,350.54464)">
-              <path
-                 d="M 0,0 400,-400"
-                 style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 id="path544-0-3"
-                 inkscape:connector-curvature="0" />
-            </g>
-            <g
-               id="g546-0-4"
-               transform="matrix(0.51072319,0,0,0.51072319,370.54464,350.54464)">
-              <path
-                 d="M 0,0 -400,-400"
-                 style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                 id="path548-0-7"
-                 inkscape:connector-curvature="0" />
-            </g>
-          </g>
-          <g
-             transform="matrix(0.63840399,0,0,-0.63840399,31.209952,-119.95295)"
-             id="g550-0-67">
-            <g
-               clip-path="url(#clipPath554-1-3)"
-               id="g552-3-6">
-              <g
-                 transform="translate(400,250)"
-                 id="g558-8-74">
-                <path
-                   inkscape:connector-curvature="0"
-                   id="path560-2-4"
-                   style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                   d="m 0,0 c 0,82.842 -67.157,150 -150,150 -82.842,0 -150,-67.158 -150,-150 0,-82.843 67.158,-150 150,-150 82.843,0 150,67.157 150,150 z" />
-              </g>
-              <g
-                 transform="translate(50,250)"
-                 id="g562-5-8">
-                <path
-                   inkscape:connector-curvature="0"
-                   id="path564-1-1"
-                   style="fill:none;stroke:#ffffff;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-                   d="M 0,0 C 0,110.457 89.543,200 200,200 310.457,200 400,110.457 400,0 400,-110.457 310.457,-200 200,-200 89.543,-200 0,-110.457 0,0 Z" />
-              </g>
-            </g>
-          </g>
-          <g
-             id="g4747-5-2-2"
-             transform="matrix(1.25,0,0,-1.25,-121.68905,32.946052)">
-            <path
-               inkscape:connector-curvature="0"
-               id="path534-8-08-9"
-               style="fill:none;stroke:#ffffff;stroke-width:0.51072317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 250,250 -76.60848,0 0,76.60848 76.60848,0 L 250,250 Z" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path536-1-0-6"
-               style="fill:none;stroke:#ffffff;stroke-width:0.51072317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="M 326.60848,250 250,250 l 0,76.60848 76.60848,0 0,-76.60848 z" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path538-4-2-7"
-               style="fill:none;stroke:#ffffff;stroke-width:0.51072317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 250,173.39152 -76.60848,0 0,76.60848 76.60848,0 0,-76.60848 z" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path540-8-2-7"
-               style="fill:none;stroke:#ffffff;stroke-width:0.51072317;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 326.60848,173.39152 -76.60848,0 0,76.60848 76.60848,0 0,-76.60848 z" />
-          </g>
-          <g
-             id="g4747-5-9-7-4-0"
-             transform="matrix(0.87980949,0,0,-0.87980949,-29.141423,-59.601575)">
-            <path
-               inkscape:connector-curvature="0"
-               id="path534-8-0-4-9-9"
-               style="fill:none;stroke:#ffffff;stroke-width:0.70144367;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 250,250.09536 -76.51312,0 0,144.68791 76.51312,0 0,-144.68791 z" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path536-1-1-0-4-74"
-               style="fill:none;stroke:#ffffff;stroke-width:0.70144367;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 326.51312,250.09536 -76.51312,0 0,144.68791 76.51312,0 0,-144.68791 z" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path538-4-5-7-1-0"
-               style="fill:none;stroke:#ffffff;stroke-width:0.70225453;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 250,104.88083 -76.51271,0 0,145.0234 76.51271,0 0,-145.0234 z" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path540-8-4-4-0-7"
-               style="fill:none;stroke:#ffffff;stroke-width:0.70225453;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 326.51271,104.88083 -76.51271,0 0,145.0234 76.51271,0 0,-145.0234 z" />
-          </g>
-          <g
-             id="g4747-5-9-7-8-4-4"
-             transform="matrix(0,0.88092299,0.88092299,0,-29.271669,-499.63676)">
-            <path
-               inkscape:connector-curvature="0"
-               id="path534-8-0-4-1-4-5"
-               style="fill:none;stroke:#ffffff;stroke-width:0.70144367;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 250,250.09536 -76.51312,0 0,144.68791 76.51312,0 0,-144.68791 z" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path536-1-1-0-8-4-33"
-               style="fill:none;stroke:#ffffff;stroke-width:0.70144367;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 326.51312,250.09536 -76.51312,0 0,144.68791 76.51312,0 0,-144.68791 z" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path538-4-5-7-2-5-8"
-               style="fill:none;stroke:#ffffff;stroke-width:0.70225453;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 250,104.88083 -76.51271,0 0,145.0234 76.51271,0 0,-145.0234 z" />
-            <path
-               inkscape:connector-curvature="0"
-               id="path540-8-4-4-1-6-9"
-               style="fill:none;stroke:#ffffff;stroke-width:0.70225453;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
-               d="m 326.51271,104.88083 -76.51271,0 0,145.0234 76.51271,0 0,-145.0234 z" />
-          </g>
-        </g>
-        <circle
-           r="67.004814"
-           cy="136.03918"
-           cx="1446.9894"
-           style="fill:none;stroke:#ffffff;stroke-width:5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-           id="path5706-8-1-3" />
-      </g>
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         sodipodi:linespacing="125%"
-         id="text6978"
-         y="-524.11511"
-         x="234.81352"
-         style="font-style:normal;font-weight:normal;font-size:70px;line-height:125%;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#ffffff"
-           y="-524.11511"
-           x="234.81352"
-           id="tspan6980"
-           sodipodi:role="line">Suru Icon Template</tspan><tspan
-           id="tspan6982"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#ffffff"
-           y="-477.24011"
-           x="234.81352"
-           sodipodi:role="line">v0.3</tspan></text>
-    </g>
-    <g
        id="g4614-89"
        transform="translate(66.061324,-414.39467)" />
     <g
@@ -1964,53 +1703,6 @@
            id="tspan4692-7-5" /></text>
     </g>
     <g
-       id="g5275"
-       transform="translate(-88.765603,5.3000382)">
-      <g
-         id="g5279">
-        <path
-           transform="matrix(1,0,0,1.007874,1428.2866,-404.60277)"
-           style="display:inline;opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:url(#linearGradient5272);stroke-width:0.99608612;filter:url(#filter3891)"
-           d="m 184.2947,54.844732 c -25.4551,0 -41.8437,22.790597 -41.8437,50.051208 l 0,150.59934 c 0,27.26061 16.3886,50.0512 41.8437,50.0512 56.2201,0 112.4401,0 168.6602,0 25.4551,0 41.8437,-22.7906 41.8437,-50.0512 l 0,-150.59934 c 0,-27.260611 -16.3886,-50.051208 -41.8437,-50.051208 -56.2201,0 -112.4401,0 -168.6602,0 z"
-           id="path16461-33-5-3-8-4-8"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cssccsscc" />
-        <path
-           style="display:inline;opacity:1;fill:none;fill-opacity:1;stroke:url(#linearGradient5252);stroke-opacity:1;filter:url(#filter5268)"
-           d="m 1612.5813,-349.32619 c -25.4551,0 -41.8437,22.97005 -41.8437,50.44531 l 0,151.78516 c 0,27.47526 16.3886,50.445304 41.8437,50.445304 56.2201,0 112.4401,0 168.6602,0 25.4551,0 41.8437,-22.970054 41.8437,-50.445304 l 0,-151.78516 c 0,-27.47526 -16.3886,-50.44531 -41.8437,-50.44531 -56.2201,0 -112.4401,0 -168.6602,0 z"
-           id="path16461-33-5-3-8-4-8-2"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="cssccsscc" />
-      </g>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-         x="1393.198"
-         y="-260.8963"
-         id="text8667"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           id="tspan8669"
-           x="1393.198"
-           y="-260.8963"
-           style="fill:#5d5d5d;fill-opacity:1">Icon Clip</tspan><tspan
-           sodipodi:role="line"
-           x="1395.9636"
-           y="-230.8963"
-           id="tspan8671"
-           style="fill:#5d5d5d;fill-opacity:1">use clip tool after </tspan><tspan
-           sodipodi:role="line"
-           x="1395.9636"
-           y="-200.8963"
-           id="tspan8673"
-           style="fill:#5d5d5d;fill-opacity:1">positioning on </tspan><tspan
-           sodipodi:role="line"
-           x="1393.198"
-           y="-170.8963"
-           id="tspan8675"
-           style="fill:#5d5d5d;fill-opacity:1">top of icon</tspan></text>
-    </g>
-    <g
        id="g8546"
        style="opacity:0.5">
       <g
@@ -2029,6 +1721,17 @@
          id="tspan6338"
          x="520.47131"
          y="572.3515" /></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="481.05411"
+       y="-379.72641"
+       id="text6064"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6066"
+         x="481.05411"
+         y="-379.72641" /></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -2045,7 +1748,7 @@
          x="445.72195"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
          xml:space="preserve"><tspan
-           style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:36px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Semi-Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:36px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
            id="tspan5864-2-6"
            y="-816.15656"
            x="445.72195"
@@ -2062,7 +1765,7 @@
          id="tspan7684"
          x="514.82153"
          y="1317.8201"
-         style="fill:#ffffff;fill-opacity:1">circle</tspan></text>
+         style="fill:#ffffff;fill-opacity:1">Circle</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -2074,7 +1777,7 @@
          id="tspan7688"
          x="789.33026"
          y="1317.8201"
-         style="fill:#ffffff;fill-opacity:1">square</tspan></text>
+         style="fill:#ffffff;fill-opacity:1">Square</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -4516,6 +4219,322 @@
   </g>
   <g
      inkscape:groupmode="layer"
+     id="layer8"
+     inkscape:label="clip"
+     style="display:inline">
+    <g
+       style="display:inline"
+       id="g6032"
+       transform="translate(808.53547,1286.6312)">
+      <text
+         sodipodi:linespacing="125%"
+         id="text5523-5-7"
+         y="-816.15656"
+         x="445.72195"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:36px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan5864-2-5"
+           y="-816.15656"
+           x="445.72195"
+           sodipodi:role="line">Icon clip</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5523-5-5-6-2-5-3"
+         y="-816.15656"
+         x="595.33002"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan5864-2-6-0-4-2-9"
+           y="-816.15656"
+           x="595.33002"
+           sodipodi:role="line">For preview what your icon will look like</tspan></text>
+    </g>
+    <path
+       style="display:inline;opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:3.47420406;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.20000005;stroke-opacity:1"
+       d="m 1339.7091,523.40431 c -64.0396,0 -79.6945,8.72195 -82.5033,64.27766 l 0,127.50137 c 2.6886,53.17831 17.1761,63.44201 74.5744,64.22101 l 53.4255,0 53.4255,0 c 57.3983,-0.779 71.8858,-11.0427 74.5745,-64.22101 l 0,-127.50137 c -2.8089,-55.55571 -18.4638,-64.27766 -82.5035,-64.27766 l -45.4965,0 -45.4966,0 z"
+       id="rect4147-2"
+       inkscape:connector-curvature="0" />
+    <path
+       style="display:inline;opacity:1;fill:#f5f5f5;fill-opacity:1;stroke:none;stroke-width:3.47420406;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.20000005;stroke-opacity:1;filter:url(#filter3891-3)"
+       d="m 1637.2201,523.4043 c -64.0396,0 -79.6945,8.72195 -82.5033,64.27766 l 0,127.50137 c 2.6886,53.17832 17.1761,63.44202 74.5744,64.22102 l 53.4255,0 53.4255,0 c 57.3983,-0.779 71.8858,-11.0427 74.5745,-64.22102 l 0,-127.50137 c -2.8089,-55.55571 -18.4638,-64.27766 -82.5035,-64.27766 l -45.4965,0 -45.4966,0 z"
+       id="rect4147-2-0"
+       inkscape:connector-curvature="0" />
+    <g
+       style="display:inline"
+       id="g5275"
+       transform="translate(-8.80825,873.57663)">
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
+         x="1393.198"
+         y="-260.8963"
+         id="text8667"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan8669"
+           x="1393.198"
+           y="-260.8963"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#5d5d5d;fill-opacity:1">Icon Clip</tspan><tspan
+           sodipodi:role="line"
+           x="1398.823"
+           y="-232.7713"
+           id="tspan8671"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#5d5d5d;fill-opacity:1">use clip tool after </tspan><tspan
+           sodipodi:role="line"
+           x="1398.823"
+           y="-204.6463"
+           id="tspan8673"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#5d5d5d;fill-opacity:1">positioning on </tspan><tspan
+           sodipodi:role="line"
+           x="1393.198"
+           y="-176.5213"
+           id="tspan8675"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#5d5d5d;fill-opacity:1">top of icon</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="1681.9049"
+       y="598.49634"
+       id="text8667-3"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan8669-4"
+         x="1681.9049"
+         y="598.49634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#f7f6f5;fill-opacity:1">Icon drop shadow</tspan><tspan
+         sodipodi:role="line"
+         x="1687.5299"
+         y="626.62134"
+         id="tspan8675-0"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#f7f6f5;fill-opacity:1">use algin tool </tspan><tspan
+         sodipodi:role="line"
+         x="1681.9049"
+         y="654.74634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#f7f6f5;fill-opacity:1"
+         id="tspan4009">(shift+ ctrl + a)</tspan><tspan
+         sodipodi:role="line"
+         x="1687.5299"
+         y="682.87134"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#f7f6f5;fill-opacity:1"
+         id="tspan4007">to put it on top </tspan><tspan
+         sodipodi:role="line"
+         x="1687.5299"
+         y="710.99634"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#f7f6f5;fill-opacity:1"
+         id="tspan4011">of clipped icon </tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="415.42303"
+       y="493.36615"
+       id="text6159"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan6161"
+         x="415.42303"
+         y="493.36615"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';fill:#ffffff">They can be submitted as 512x512 but will be downsized to 256x256</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer9"
+     inkscape:label="logo">
+    <g
+       id="g5644">
+      <g
+         transform="translate(-14.069389,6.0367701)"
+         id="g7121">
+        <g
+           style="display:inline"
+           id="g6936"
+           transform="translate(482.66771,332.55599)">
+          <g
+             transform="translate(35.667436,27.743576)"
+             id="g6896">
+            <g
+               style="display:inline"
+               transform="translate(-1733.8003,-322.66425)"
+               id="g5800-4-5-9-2">
+              <g
+                 transform="translate(-33.730929,-5.3259362)"
+                 id="g5581-4-4">
+                <g
+                   transform="translate(991.65691,525.66247)"
+                   id="g5049-5-1-6-6-2">
+                  <g
+                     id="g7274-2-5-7-8-1-5-6"
+                     transform="translate(-765.75448,-105.87208)"
+                     style="fill:#f5f5f5;fill-opacity:1">
+                    <g
+                       style="fill:#f5f5f5;fill-opacity:1"
+                       transform="translate(1020.5465,-389.35083)"
+                       id="g4614-9-2-2-8-7-5-2-8" />
+                  </g>
+                  <g
+                     transform="matrix(1.25,0,0,-1.25,-121.68905,32.946052)"
+                     id="g4747-5-2-8-4-4-9" />
+                  <g
+                     transform="matrix(0,0.87980949,0.87980949,0,-28.993481,-499.35838)"
+                     id="g4747-5-9-7-8-4-41-0-2-2">
+                    <g
+                       id="g5373-4-6-0"
+                       transform="translate(0,-65.739482)" />
+                    <g
+                       transform="translate(0,-211.32221)"
+                       id="g5373-0-2-9-1" />
+                  </g>
+                  <g
+                     transform="matrix(-0.87980949,0,0,0.87980949,410.61538,-499.35838)"
+                     id="g4747-5-9-7-8-4-41-0-9-66-8">
+                    <g
+                       id="g5373-4-2-4-3"
+                       transform="translate(0,-65.739482)" />
+                    <g
+                       transform="translate(0,-211.32221)"
+                       id="g5373-0-2-5-2-8" />
+                  </g>
+                </g>
+                <g
+                   id="g6712"
+                   transform="translate(4.7340841,1.1835525)">
+                  <g
+                     style="display:inline;fill:#f5f5f5;fill-opacity:1"
+                     id="g7267-6-8-4-4-2-99-9"
+                     transform="translate(490.42396,309.72105)">
+                    <g
+                       style="fill:#f5f5f5;fill-opacity:1"
+                       transform="matrix(0.875,0,0,0.875,825.10553,-302.84528)"
+                       id="g4614-0-5-4-7-8-2-5-6">
+                      <rect
+                         style="fill:none;fill-opacity:1;fill-rule:nonzero;stroke:none"
+                         id="rect2985-5-2-4-0-2-6-0-8"
+                         width="256"
+                         height="256"
+                         x="22.239878"
+                         y="19.615335" />
+                    </g>
+                  </g>
+                  <g
+                     id="g4753-5-5-5-7-4"
+                     transform="matrix(1.25,0,0,-1.25,1104.9894,441.53915)"
+                     style="display:inline">
+                    <g
+                       id="g4741-1-2-0-1-4"
+                       transform="translate(23.6,-5.6)" />
+                    <g
+                       id="g4747-2-2-4-0-6"
+                       transform="matrix(1.1656437,0,0,1.165512,-17.82137,-46.979158)" />
+                  </g>
+                  <g
+                     transform="matrix(1.25,0,0,-1.25,1111.4894,446.53915)"
+                     id="g4735-4-1-5-1-0-1"
+                     style="display:inline">
+                    <g
+                       id="g542-3-7-4-0-3"
+                       transform="matrix(0.51072319,0,0,0.51072319,166.25536,350.54464)">
+                      <path
+                         d="M 0,0 400,-400"
+                         style="fill:none;stroke:#fcfcfc;stroke-width:1.56640626;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                         id="path544-0-30-2-1-3"
+                         inkscape:connector-curvature="0" />
+                    </g>
+                    <g
+                       id="g546-0-0-8-1-4"
+                       transform="matrix(0.51072319,0,0,0.51072319,370.54464,350.54464)">
+                      <path
+                         d="M 0,0 -400,-400"
+                         style="fill:none;stroke:#fcfcfc;stroke-width:1.56640626;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                         id="path548-0-0-8-5-9"
+                         inkscape:connector-curvature="0" />
+                    </g>
+                  </g>
+                  <g
+                     transform="matrix(0.63840399,0,0,-0.63840399,1287.3884,295.64018)"
+                     id="g550-0-4-5-7-6"
+                     style="display:inline">
+                    <g
+                       clip-path="url(#clipPath554-1-2-0-9-2-8-9)"
+                       id="g552-3-4-8-3-5">
+                      <g
+                         transform="translate(400,250)"
+                         id="g558-8-4-2-0-9">
+                        <path
+                           inkscape:connector-curvature="0"
+                           id="path560-2-3-7-8-3"
+                           style="fill:none;stroke:#fcfcfc;stroke-width:1.56640625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                           d="m 0,0 c 0,82.842 -67.157,150 -150,150 -82.842,0 -150,-67.158 -150,-150 0,-82.843 67.158,-150 150,-150 82.843,0 150,67.157 150,150 z" />
+                      </g>
+                      <g
+                         transform="translate(50,250)"
+                         id="g562-5-86-0-9-3">
+                        <path
+                           inkscape:connector-curvature="0"
+                           id="path564-1-17-0-7-8"
+                           style="fill:none;stroke:#fcfcfc;stroke-width:1.56640625;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1"
+                           d="M 0,0 C 0,110.457 89.543,200 200,200 310.457,200 400,110.457 400,0 400,-110.457 310.457,-200 200,-200 89.543,-200 0,-110.457 0,0 Z" />
+                      </g>
+                    </g>
+                  </g>
+                  <circle
+                     r="64.094597"
+                     cy="136.03918"
+                     cx="1446.9894"
+                     style="fill:#000000;fill-opacity:0;stroke:#fcfcfc;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+                     id="path5706-8-1-1-0-5-9" />
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           id="g6453"
+           transform="translate(-3.3475601,-970.79252)">
+          <g
+             transform="translate(290.57747,524.02551)"
+             id="g6414"
+             style="opacity:1;fill:none;fill-opacity:0.98823529;stroke:#fcfcfc;stroke-opacity:1">
+            <path
+               style="display:inline;opacity:1;fill:none;fill-opacity:0.98823529;stroke:#fcfcfc;stroke-width:3.47420406;stroke-linecap:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:1.20000005;stroke-opacity:1"
+               d="m -131.03605,489.91 c -64.0396,0 -79.6945,8.72195 -82.5033,64.27766 l 0,127.50132 c 2.6886,53.1784 17.1761,63.4421 74.5744,64.2211 l 53.425498,0 53.4255,0 c 57.3983,-0.779 71.8858,-11.0427 74.5745,-64.2211 l 0,-127.50132 C 39.651648,498.63195 23.996748,489.91 -40.042952,489.91 l -45.4965,0 -45.496598,0 z"
+               id="rect4147-2-7"
+               inkscape:connector-curvature="0" />
+          </g>
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             x="205.67496"
+             y="1319.5612"
+             id="text7115"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               id="tspan7117"
+               x="205.67496"
+               y="1319.5612"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#ffffff;font-size:35px">Suru Icon Template</tspan><tspan
+               sodipodi:role="line"
+               x="205.67496"
+               y="1369.5612"
+               id="tspan7119"
+               style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#ffffff;font-size:35px">v0.3.1</tspan></text>
+        </g>
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path5142"
+         d="m 188.45799,47.462796 0,256.925254"
+         style="fill:none;fill-rule:evenodd;stroke:#fcfcfc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path5142-8"
+         d="m 316.08375,175.59825 -256.925259,0"
+         style="fill:none;fill-rule:evenodd;stroke:#fcfcfc;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Gradient"
      style="display:inline">
@@ -4524,20 +4543,6 @@
        id="layer6"
        inkscape:label="background 1"
        style="display:inline">
-      <rect
-         style="display:inline;fill:url(#linearGradient6317);fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="rect2985-57-9-0"
-         width="256"
-         height="256"
-         x="718.26825"
-         y="1456.2578" />
-      <rect
-         style="display:inline;fill:url(#linearGradient6309);fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="rect2985-57-6"
-         width="256"
-         height="256"
-         x="415.4603"
-         y="1456.2578" />
       <text
          xml:space="preserve"
          style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
@@ -4549,102 +4554,87 @@
            id="tspan6265"
            x="-68.624992"
            y="1249.2625" /></text>
-      <g
-         id="g6330"
-         transform="translate(0,140)">
-        <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+      <text
+         sodipodi:linespacing="125%"
+         id="text5523-5-5-6-2"
+         y="1428.7998"
+         x="413.83401"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:35px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';text-align:start;writing-mode:lr-tb;text-anchor:start;font-weight:300"
+           id="tspan5864-2-6-0-4"
+           y="1428.7998"
            x="413.83401"
-           y="1288.3595"
-           id="text5523-5-5-6-2"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="413.83401"
-             y="1288.3595"
-             id="tspan5864-2-6-0-4"
-             style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:35px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Semi-Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Backgrounds</tspan></text>
+           sodipodi:role="line">Backgrounds</tspan></text>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5523-5-5-6-2-5"
+         y="1428.7998"
+         x="638.06372"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+         xml:space="preserve"><tspan
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;writing-mode:lr-tb;text-anchor:start"
+           id="tspan5864-2-6-0-4-2"
+           y="1428.7998"
+           x="638.06372"
+           sodipodi:role="line">Most of the core apps have a subtle diagonal gradient or simple flat background</tspan></text>
+      <g
+         id="g5633"
+         transform="translate(-300,0)">
+        <rect
+           y="1456.2578"
+           x="718.26825"
+           height="256"
+           width="256"
+           id="rect2985-57-9-0"
+           style="display:inline;fill:url(#linearGradient6317);fill-opacity:1;fill-rule:nonzero;stroke:none" />
+        <rect
+           y="1456.2578"
+           x="1021.2548"
+           height="256"
+           width="256"
+           id="rect2985-57-9-0-4"
+           style="display:inline;fill:#e7e7df;fill-opacity:1;fill-rule:nonzero;stroke:none" />
         <text
-           xml:space="preserve"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
-           x="636.06372"
-           y="1288.7998"
-           id="text5523-5-5-6-2-5"
-           sodipodi:linespacing="125%"><tspan
-             sodipodi:role="line"
-             x="636.06372"
-             y="1288.7998"
-             id="tspan5864-2-6-0-4-2"
-             style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Semi-Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Most apps have a subtle gradients to provide some depth</tspan></text>
+           sodipodi:linespacing="125%"
+           id="text6340-5"
+           y="1749.7178"
+           x="845.50714"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff"
+             id="tspan6344-3"
+             y="1749.7178"
+             x="845.50714"
+             sodipodi:role="line">Diagonal Gradient</tspan><tspan
+             id="tspan10347"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#ffffff"
+             y="1770.5919"
+             x="845.50714"
+             sodipodi:role="line">Music Background</tspan></text>
+        <text
+           sodipodi:linespacing="125%"
+           id="text6340-83"
+           y="1749.7178"
+           x="1148.4937"
+           style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           xml:space="preserve"><tspan
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff"
+             id="tspan6344-10"
+             y="1749.7178"
+             x="1148.4937"
+             sodipodi:role="line">Flat</tspan><tspan
+             id="tspan10349"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#ffffff"
+             y="1770.5919"
+             x="1148.4937"
+             sodipodi:role="line">Shorts Background</tspan></text>
+        <path
+           inkscape:connector-curvature="0"
+           id="path8687-0"
+           d="m 732.84779,1468.8054 227.01247,231.0795"
+           style="display:inline;opacity:0.5;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotL-2-2);marker-end:url(#DotL-2-2)" />
       </g>
-      <rect
-         style="display:inline;fill:#e7e7df;fill-opacity:1;fill-rule:nonzero;stroke:none"
-         id="rect2985-57-9-0-4"
-         width="256"
-         height="256"
-         x="1021.2548"
-         y="1456.2578" />
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="543.55414"
-         y="1749.7178"
-         id="text6340-6"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="543.55414"
-           y="1749.7178"
-           id="tspan6344-6"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff">Vertical Gradient</tspan><tspan
-           sodipodi:role="line"
-           x="543.55414"
-           y="1770.5919"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#ffffff"
-           id="tspan10345">App Plates</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="845.50714"
-         y="1749.7178"
-         id="text6340-5"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="845.50714"
-           y="1749.7178"
-           id="tspan6344-3"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff">Diagonal Gradient</tspan><tspan
-           sodipodi:role="line"
-           x="845.50714"
-           y="1770.5919"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#ffffff"
-           id="tspan10347">App Music</tspan></text>
-      <text
-         xml:space="preserve"
-         style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-         x="1148.4937"
-         y="1749.7178"
-         id="text6340-83"
-         sodipodi:linespacing="125%"><tspan
-           sodipodi:role="line"
-           x="1148.4937"
-           y="1749.7178"
-           id="tspan6344-10"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;text-anchor:middle;fill:#ffffff">Flat</tspan><tspan
-           sodipodi:role="line"
-           x="1148.4937"
-           y="1770.5919"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:center;text-anchor:middle;fill:#ffffff"
-           id="tspan10349">App Shorts</tspan></text>
-      <path
-         style="display:inline;opacity:0.5;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotL-2);marker-end:url(#DotL-2)"
-         d="m 543.4603,1466.432 0,235.8296"
-         id="path8687"
-         inkscape:connector-curvature="0" />
-      <path
-         style="display:inline;opacity:0.5;fill:none;fill-rule:evenodd;stroke:#ffffff;stroke-width:1.20000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;marker-start:url(#DotL-2-2);marker-end:url(#DotL-2-2)"
-         d="m 732.84779,1468.8054 227.01247,231.0795"
-         id="path8687-0"
-         inkscape:connector-curvature="0" />
     </g>
   </g>
   <g
@@ -4663,23 +4653,36 @@
        inkscape:label="folds"
        style="display:inline">
       <g
-         style="display:inline"
-         id="g7095-2-7-4"
-         transform="translate(63.933409,2671.8102)">
+         id="g5999">
         <text
-           sodipodi:linespacing="125%"
-           id="text5523-5-5-6"
-           y="-802.15656"
-           x="349.72195"
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
-           xml:space="preserve"><tspan
-             style="font-style:normal;font-variant:normal;font-stretch:normal;font-size:36px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Semi-Light';text-align:start;writing-mode:lr-tb;text-anchor:start"
-             id="tspan5864-2-6-0"
-             y="-802.15656"
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;display:inline;fill:#ffffff;fill-opacity:1;stroke:none"
+           x="699.68341"
+           y="1868.5337"
+           id="text5523-5-5-6-2-5-0"
+           sodipodi:linespacing="125%"><tspan
+             sodipodi:role="line"
+             x="699.68341"
+             y="1868.5337"
+             id="tspan5864-2-6-0-4-2-7"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:22.5px;line-height:125%;font-family:'Ubuntu Mono';-inkscape-font-specification:'Ubuntu Mono';text-align:start;writing-mode:lr-tb;text-anchor:start">Folds have been simplified in 15.10 to a plain white square at 15%-10% opacity.</tspan></text>
+        <g
+           transform="translate(63.933409,2671.8102)"
+           id="g7095-2-7-4"
+           style="display:inline">
+          <text
+             xml:space="preserve"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:32px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#ffffff;fill-opacity:1;stroke:none"
              x="349.72195"
-             sodipodi:role="line">Paperfolds <tspan
-   style="font-size:22.5px"
-   id="tspan5401">Have been simplify in 15.10 to plain white squares at 15%-10% opacity</tspan></tspan></text>
+             y="-802.15656"
+             id="text5523-5-5-6"
+             sodipodi:linespacing="125%"><tspan
+               sodipodi:role="line"
+               x="349.72195"
+               y="-802.15656"
+               id="tspan5864-2-6-0"
+               style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:36px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:'Ubuntu Light';text-align:start;writing-mode:lr-tb;text-anchor:start">Basic Paperfolds</tspan></text>
+        </g>
       </g>
       <g
          id="g5979"
