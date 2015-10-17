@@ -10,13 +10,20 @@
 - New icon to match the Ubuntu Ui Toolkit branding
 
 #Suru Icon Template
+## 2015-10-16
+### Changed
+- more acurate ubuntu shape
+- More facts added to headers
+- updated logo
+- update description text
+ 
 ## 2015-10-04
 ### Changed
 - Paper fold section in it's own layer
 - Paper folds changed to match wily series icons
 - Paper fold background squares colors changed
 ##Added
-- Color section added
+- Background color section added
 
 
 #Device Stickersheet
