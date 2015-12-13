@@ -1,13 +1,12 @@
 # Ubuntu Ui Toolkit Change Log
 
 #Ubuntu Ui Patterns
-## 2015-10-04
+## 2015-12-12
 ### Changed
-- Name changed to Ubuntu Ui Patterns
-- Layout changed to reduce horizontal scrolling
+- More compact
+- More accurate components
 ### Added
-- Blue background
-- New icon to match the Ubuntu Ui Toolkit branding
+- Less Blue
 
 #Suru Icon Template
 ## 2015-10-16
