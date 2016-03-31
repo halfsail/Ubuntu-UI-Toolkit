@@ -1,6 +1,12 @@
 # Ubuntu Ui Toolkit Change Log
 
 #Ubuntu Ui Patterns
+## 2016-03-30
+### Changed
+- Update colors palette
+- system color link changed
+- status bar color changed
+
 ## 2015-12-12
 ### Changed
 - More compact
@@ -9,6 +15,9 @@
 - Less Blue
 
 #Suru Icon Template
+## 2016-03-30
+### Changed
+- updated icon drop shadow
 ## 2015-10-16
 ### Changed
 - more acurate ubuntu shape
