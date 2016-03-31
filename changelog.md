@@ -35,6 +35,10 @@
 
 
 #Device Stickersheet
+## 2016-03-30
+### Changed
+- status bar color changed
+- wireframe meizu mx44 status indicators fixed
 ## 2015-10-04
 ### Changed
 - Removed from preview state
